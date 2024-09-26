@@ -1,0 +1,134 @@
+/* Menggunakan font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+    border-bottom: 8px solid #388E3C;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 8px solid #fff;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    background-color: #388E3C;
+}
+
+.skills ul, .languages ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills ul li, .languages ul li {
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #4CAF50;
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
